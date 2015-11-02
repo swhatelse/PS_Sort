@@ -1,0 +1,10 @@
+* Estimation
+** Sequential
+***   Mathematical model 
+      T(n) = alpha * n
+      #+begin_src R :results output graphics :file (org-babel-temp-file "figure" ".png") :exports both :width 600 :height 400 :session
+      
+      #+end_src
+** Parallel
+***   Mathematical model 
+      T(n,p) = alpha * n / p + beta + gamma
